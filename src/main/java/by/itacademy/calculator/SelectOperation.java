@@ -1,6 +1,7 @@
 package by.itacademy.calculator;
 
 public class SelectOperation implements Operations {
+
     public Operation operation;
 
     @Override

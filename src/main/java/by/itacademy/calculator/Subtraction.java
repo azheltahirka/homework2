@@ -1,6 +1,6 @@
 package by.itacademy.calculator;
 
-public class Subtraction implements Operation {
+class Subtraction implements Operation {
 
     @Override
     public double performCalculation(double x, double y) {

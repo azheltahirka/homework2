@@ -9,7 +9,7 @@ public class SubtractionTest {
     private Subtraction subtraction;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp()  {
         subtraction = new Subtraction();
     }
 
@@ -27,6 +27,6 @@ public class SubtractionTest {
 
     @Test
     public void testSubtractionSign() {
-        assertEquals("-", (subtraction.getSign()), "Subtraction sign is -");
+        assertEquals("-", (subtraction.getSign()), "Subtraction sign is not -");
     }
 }

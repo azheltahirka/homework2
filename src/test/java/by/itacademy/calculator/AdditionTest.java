@@ -9,7 +9,7 @@ public class AdditionTest {
     private Addition addition;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         addition = new Addition();
     }
 
@@ -27,6 +27,6 @@ public class AdditionTest {
 
     @Test
     public void testAdditionSign(){
-        assertEquals("+", (addition.getSign()), "Addition sign is +");
+        assertEquals("+", (addition.getSign()), "Addition sign is not +");
     }
 }

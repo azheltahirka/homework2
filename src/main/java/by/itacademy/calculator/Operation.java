@@ -1,6 +1,7 @@
 package by.itacademy.calculator;
 
-public interface Operation {
+interface Operation {
+
     double performCalculation(double x, double y);
 
     String getSign();

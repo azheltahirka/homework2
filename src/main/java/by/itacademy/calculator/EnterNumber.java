@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EnterNumber {
 
-    public double enterNumber() {
+    public static double enterNumber() {
         Scanner scanner = new Scanner(System.in);
         while (!scanner.hasNextDouble()) {
             System.out.println("Not a number! Enter a number");

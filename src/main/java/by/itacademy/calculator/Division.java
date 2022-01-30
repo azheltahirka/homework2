@@ -1,6 +1,6 @@
 package by.itacademy.calculator;
 
-public class Division implements Operation {
+class Division implements Operation {
 
     @Override
     public double performCalculation(double x, double y) {

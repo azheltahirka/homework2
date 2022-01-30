@@ -1,6 +1,6 @@
 package by.itacademy.calculator;
 
-public class Multiply implements Operation {
+class Multiply implements Operation {
 
     @Override
     public double performCalculation(double x, double y) {

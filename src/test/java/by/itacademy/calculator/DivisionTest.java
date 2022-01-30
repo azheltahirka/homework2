@@ -10,7 +10,7 @@ public class DivisionTest {
     private ArithmeticException arithmeticException;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp()  {
         division = new Division();
     }
 
@@ -32,6 +32,6 @@ public class DivisionTest {
 
     @Test
     public void testDivisionSign(){
-        assertEquals("/", (division.getSign()), "Addition sign is /");
+        assertEquals("/", (division.getSign()), "Division sign is not  /");
     }
 }
